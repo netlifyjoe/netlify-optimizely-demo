@@ -1,0 +1,6 @@
+[[redirects]]
+from = "/"
+to = "/en"
+force = true
+status = 302
+conditions = { Country = ["US"] }

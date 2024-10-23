@@ -66,18 +66,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <Scripts.Header />
       </head>
       <ThemeProvider value={{ theme: "system" }}>
-        <h1>Hello Optimizely</h1>
         <Body className={`${figtree.className} bg-ghost-white dark:bg-vulcan`}>
-          <div className="flex min-h-screen flex-col justify-between">
-            <GlobalProviders>
-              <Header />
-              <main className="grow">{children}</main>
-              <Footer />
-            </GlobalProviders>
-            <Scripts.Footer />
-            <GoogleAnalytics measurementId={ga_id} />
-            <SpeedInsights />
-          </div>
         </Body>
       </ThemeProvider>
     </html>

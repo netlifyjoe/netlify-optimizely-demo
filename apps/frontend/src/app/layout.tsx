@@ -70,6 +70,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <div className="flex min-h-screen flex-col justify-between">
             <GlobalProviders>
               <Header />
+              <h1>Hello Optimizely!</h1>
               <main className="grow">{children}</main>
               <Footer />
             </GlobalProviders>

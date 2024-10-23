@@ -67,6 +67,16 @@ export default function RootLayout({ children }: RootLayoutProps) {
       </head>
       <ThemeProvider value={{ theme: "system" }}>
         <Body className={`${figtree.className} bg-ghost-white dark:bg-vulcan`}>
+          <div className="flex min-h-screen flex-col justify-between">
+            <GlobalProviders>
+              <Header />
+              <main className="grow">{children}</main>
+              <Footer />
+            </GlobalProviders>
+            <Scripts.Footer />
+            <GoogleAnalytics measurementId={ga_id} />
+            <SpeedInsights />
+          </div>
         </Body>
       </ThemeProvider>
     </html>

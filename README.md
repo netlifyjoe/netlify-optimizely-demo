@@ -17,17 +17,20 @@ This repository contains the packages and applications that form the Optimizely 
 
 ## Getting started
 ### Requirements
-Make sure you're good to go, by:
-- Requesting an Optimizely CMS instance using [Sign-up for the program](https://www.optimizely.com/saas-core-waitlist/)
-- Ensure you have a GitHub account
-- Ensuring you have (at least) a starter plan account at Netlify, or are comfortable creating one
-
-After signing up for the beta instance and provisioning of the instance, you'll get an e-mail with the keys and instructions to activate your account.
+Make sure you're good to go, by ensuring you have:
+- Access to an Optimizely CMS instance.
+- A GitHub account.
+- A Netlify account (any plan will suffice). If you do not have one, a free account can be created easily during deployment. 
 
 ### Deploying & Configuring
 [Follow these instructions to configure the CMS](docs/cms-config.md)
 
-After you've completed the CMS configuration instructions and collected the needed information, click the "Deploy to netlify" button below, to deploy this site to your Netlify Account
+After you've completed the CMS configuration instructions and collected the needed information, click the "Deploy to netlify" button below, to deploy this site to your Netlify Account.
+
+Durring the deploy process:
+- You will be prompted to enter environement variables as described below.
+- The demo site will build and deploy.
+- A repo with this source code will be added to your Github account. When you make changes to that repo, Netlify CI/CD will automatlicy build and deploy the changes. 
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlifyjoe/netlify-optimizely-demo)
 

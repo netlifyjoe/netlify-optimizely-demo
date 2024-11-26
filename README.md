@@ -29,6 +29,7 @@ After signing up for the beta instance and provisioning of the instance, you'll 
 
 After you've completed the CMS configuration instructions and collected the needed information, click the "Deploy to netlify" button below, to deploy this site to your Netlify Account
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlifyjoe/netlify-optimizely-demo)
 
 | Environment variable | Instruction |
 | - | - |

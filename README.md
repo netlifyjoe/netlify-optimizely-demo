@@ -15,6 +15,8 @@
 ## Introduction
 This repository contains the packages and applications that form the Optimizely CMS Demo Site.
 
+View the live demo site on Netlify here: https://netlify-optimizely.netlify.app
+
 ## Getting started
 ### Requirements
 Make sure you're good to go, by ensuring you have:

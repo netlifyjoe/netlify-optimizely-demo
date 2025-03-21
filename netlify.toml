@@ -3,7 +3,7 @@
   to = "/en"
   force = true
   status = 302
-  conditions = { Country = ["US"] }
+  conditions = { Country = ["US", "CA"] }
 
 [template.environment]
   OPTIMIZELY_CMS_URL = "OPTIMIZELY_CMS_URL"
